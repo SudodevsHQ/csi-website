@@ -54,6 +54,9 @@ nav{
     position: fixed;
     top:0
 }
+.nav-scrolled{
+    background: rgba(0, 0, 0, 0.5)
+}
 /* ##################### INTRODUCTION ######################## */
 .introduction{
     color: white;

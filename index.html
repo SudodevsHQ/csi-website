@@ -107,7 +107,10 @@
         $(document).ready(function(){
             $('.sidenav').sidenav();
         });
-
+        $(document).scroll(function () {
+            var $nav = $(".navbar");
+            $nav.toggleClass('nav-scrolled', $(this).scrollTop() > $nav.height());
+         });
     </script>
 </body>
 
