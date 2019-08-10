@@ -102,3 +102,10 @@ nav{
 .workshops{
     background: url("../img/workshop.webp")
 }
+
+@media only screen and (max-width: 600px) {
+    .intro-title{
+      font-size: 2rem;
+      margin-left: 10vh 
+    }
+  }
