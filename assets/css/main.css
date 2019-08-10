@@ -1,0 +1,32 @@
+html, body{
+    margin: 0%;
+}
+
+section {
+    height: 100vh;
+    margin: 0%;
+}
+
+.contact {
+    height: 100vh;
+
+}
+
+.feedback {
+    height: 100vh;
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 50vh;
+}
+h3 {
+    text-decoration: underline;
+
+}
