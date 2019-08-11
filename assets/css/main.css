@@ -97,13 +97,6 @@ nav {
     font-weight: 500;
 }
 
-.intro-titles {
-    display: inline-block;
-    margin: 0 auto;
-    margin-top: 1rem;
-    font-size: 3rem
-}
-
 .hr {
     width: 50%;
 }
@@ -225,7 +218,6 @@ h3 {
 .workshops {
     background: url("../img/workshop.webp")
 }
-
 @media only screen and (max-width: 600px) {
     .about-text>p {
         font-size: 1rem;
@@ -364,7 +356,6 @@ h3 {
         border-radius: 50%;
     }
 }
-
 .teams {
     background: #191B1C;
     /* height: 100vh; */
