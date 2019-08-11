@@ -220,7 +220,6 @@ h3 {
         font-size: 2.5rem;
     }
 
-<<<<<<< HEAD
 .teams {
     background: #191B1C;
     /* height: 100vh; */
@@ -228,12 +227,6 @@ h3 {
     font-family: Raleway;
     font-style: normal;
 }
-=======
-    nav .sidenav-trigger {
-        top: -10px;
-        margin: 0;
-    }
->>>>>>> ba4d13883724fd55d1aecbcd57165069feae68cc
 
     .nav-scrolled {
         height: 5.2rem;
@@ -278,7 +271,6 @@ h3 {
 
 } */
 
-<<<<<<< HEAD
 nav .sidenav-trigger{
     top: -10px;
     margin: 0;
@@ -297,14 +289,4 @@ nav .sidenav-trigger{
 
 .face-pic{
     border-radius: 50%;
-=======
-    nav .sidenav-trigger {
-        top: -10px;
-        margin: 0;
-    }
-
-    .nav-scrolled {
-        height: 5.2rem;
-    }
->>>>>>> ba4d13883724fd55d1aecbcd57165069feae68cc
 }
