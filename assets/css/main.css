@@ -140,6 +140,7 @@ nav {
     margin-bottom: 4rem;
 }
 
+
 .material-icons {
     color: rgba(255, 255, 255, 0.74);
 }
@@ -201,6 +202,23 @@ h3 {
 }
 
 @media only screen and (max-width: 600px) {
+    .about-text>p{
+        font-size: 1rem;
+        line-height: 2rem;
+        padding: 0 0.5rem;
+    }
+    .counter{
+        font-size: 3.2rem;
+    }
+    .col>h5{
+        font-size: 1.5rem;
+    }
+    .footer-text > h3{
+        font-size: 2rem !important;
+    }
+    .footer-text > h5{
+        font-size: 1.1rem;
+    }
     .intro-title {
         font-size: 2rem;
         /* padding-left: 7vh; */
@@ -240,7 +258,7 @@ h3 {
         font-size: 2rem;
     }
 
-    .col>p {
+    .col>p, {
         font-size: 1rem;
     }
 
@@ -329,10 +347,12 @@ h3 {
     padding-bottom: 1rem;
 }
 
-.container>h1 {
+/* .container>h1 {
     /* text-align: center; */
-    color: white;
-}
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 500;
+    font-size: 3.5rem;
+} */
 
 .intro-text {
     text-align: center;
@@ -374,55 +394,67 @@ nav .sidenav-trigger {
 }
 
 .about-text {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
 }
 
 .ele {
     text-align: center;
     padding-bottom: 50px;
-    border-right: 1px dashed white;
-  }
-  
-  .ele:last-child {
+    border-right: 1px dashed rgba(255, 255, 255, 0.5);
+}
+
+.ele:last-child {
     border-right: 0px solid white;
-  }
-  
-  .counter {
+}
+
+.counter {
+    color: rgba(255, 255, 255, 0.8);
     animation-duration: 1s;
     animation-delay: 0s;
-  }
-  
-  i {
-    font-size: 20px !Important;
-  }
-  
-  @media (max-width: 991px) {
-    .ele {
-      border-right: 0px dashed white;
-      border-bottom: 1px dashed white;
-      width: 50%;
-      margin: auto auto;
-    }
-    
-    .ele:last-child {
-      border-bottom: 0px dashed white;
-    }
-  }
+    font-size: 3rem;
+}
 
-  .footer {
+/* i {
+    font-size: 20px !Important;
+  } */
+
+@media (max-width: 991px) {
+    .ele {
+        border-right: 0px dashed white;
+        border-bottom: 1px dashed white;
+        width: 50%;
+        margin: auto auto;
+    }
+
+    .ele:last-child {
+        border-bottom: 0px dashed white;
+    }
+}
+
+.footer {
     background: black;
     /* height: 50vh; */
     color: white;
     font-family: Raleway;
     font-style: normal;
     padding-top: 2vh;
-    padding-bottom: 5vh; 
-  }
+    padding-bottom: 5vh;
+}
 
-  .footer-text {
-      text-align: left;
-  }
+.footer-text {
+    text-align: center;
+}
+.footer-text  a{
+    color: #03a9f4;
+    text-transform: uppercase;
+}
 
-  .footer-text > h3 {
-      text-decoration: underline
-  }
+.footer-text>h3 {
+    font-size: 2.2rem;
+    color: rgba(255, 255, 255, 0.8)
+}
+.footer-text >h5{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 1.4rem;
+}
