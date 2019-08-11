@@ -141,13 +141,25 @@ nav {
 }
 
 .cta {
-    
+
     background-image: url("../img/banner.webp");
     background-repeat: no-repeat;
     background-size: cover;
     height: 25vh;
+    margin-bottom: 3rem;
 }
-.row-cta{
+.row-cta h2{
+    font-weight: 600;
+}
+
+.elem{
+    margin-top: 2.5rem;
+}
+.elem2{
+    margin-top: 3rem;
+}
+
+.row-cta {
     padding-top: 2rem;
     color: rgba(255, 255, 255, 0.8);
 }
@@ -228,15 +240,26 @@ h3 {
     .col>h5 {
         font-size: 1.5rem;
     }
-    .row-cta>div>h2{
+    .elem {
+        margin-top: -2rem
+    }
+    .elem2{
+        margin-top: 0;
+    }
+
+    .row-cta>div>h2 {
         font-size: 1.5rem;
         margin: 0;
     }
-    .row-cta>div{
+
+    .row-cta>div {
         padding-bottom: 0;
     }
-    .btn-large{
+
+    .btn-large {
         font-size: 0.8rem;
+        padding: 0 1rem;
+        height: 3.5rem;
     }
 
     .footer-text>h3 {
