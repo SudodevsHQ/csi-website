@@ -161,7 +161,7 @@ nav {
 
 .teams {
     background: #191B1C;
-    height: 100vh;
+    /* height: 100vh; */
     color: white;
     font-family: Raleway;
     font-style: normal;
@@ -177,7 +177,7 @@ nav {
 }
 
 .padding {
-    padding: 8vh;
+    padding-top: 8vh;
 
 }
 
@@ -187,4 +187,16 @@ nav .sidenav-trigger{
 }
 .nav-scrolled{
     height: 5.2rem;
+}
+
+.council  {
+    background: #191B1C;
+    height: 100vh;
+    color: white;
+    font-family: Raleway;
+    font-style: normal;
+}
+
+.face-pic{
+    border-radius: 50%;
 }
