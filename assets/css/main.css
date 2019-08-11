@@ -156,3 +156,24 @@ nav {
         font-size: 2.5rem;
     }
 }
+
+.teams {
+    background: #191B1C;
+    height: 100vh;
+    color: white;
+    font-family: Raleway;
+    font-style: normal;
+}
+
+.container > h1 {
+    /* text-align: center; */
+    color: white;
+}
+
+.intro-text {
+    text-align: center;
+}
+
+.padding {
+    padding: 8vh;
+}
