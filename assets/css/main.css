@@ -3,9 +3,12 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: #191B1C
+    background: #191B1C;
 }
-
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
 /* ###################### HERO ######################### */
 .hero {
     height: 100vh;
@@ -23,10 +26,16 @@ body {
     padding: 1.5rem 2rem;
     z-index: 2;
 }
-
 .nav-logo {
     width: 7rem;
     margin-top: -1rem;
+    transition: .5s;
+    opacity: 1;
+    display: block;
+}
+.hidden{
+    opacity: 0;
+    transition: .5s;
 }
 
 nav ul a {
