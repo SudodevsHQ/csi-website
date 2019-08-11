@@ -20,8 +20,7 @@
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo">
                     CSI <span class="rait">RAIT</span>
-                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                </a>
+                    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>                </a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li class="nav-item"><a href="">WORKSHOPS</a></li>
                     <li><a href="#">TEAMS</a></li>
@@ -420,6 +419,7 @@
         $(document).scroll(function () {
             var $nav = $(".navbar");
             $nav.toggleClass('nav-scrolled', $(this).scrollTop() > $nav.height());
+            $(".nav-logo").toggleClass('hide', $(this).scrollTop() > $nav.height());
         });
     </script>
 
