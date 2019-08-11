@@ -89,6 +89,7 @@ nav {
 
 .intro-title {
     display: inline-block;
+    color: rgba(255, 255, 255, 0.8);
     margin: 0 auto;
     margin-top: 1rem;
     font-size: 3.5rem;
@@ -134,10 +135,12 @@ nav {
     line-height: 2rem;
     letter-spacing: 0.01rem;
 }
-.container > hr{
-    margin-bottom: 4rem;   
+
+.container>hr {
+    margin-bottom: 4rem;
 }
-.material-icons{
+
+.material-icons {
     color: rgba(255, 255, 255, 0.74);
 }
 
@@ -149,14 +152,20 @@ nav {
     color: rgba(255, 255, 255, 0.25);
     padding: 2rem;
 }
-nav i.material-icons{
+
+nav i.material-icons {
     font-size: 32px;
     color: rgba(255, 255, 255, 0.8);
 }
-.col > p{
+
+.col>p {
     color: rgba(255, 255, 255, 0.7);
     line-height: 1.5rem;
     letter-spacing: 0.01rem;
+}
+
+h3 {
+    color: white;
 }
 
 .sidenav {
@@ -174,9 +183,11 @@ nav i.material-icons{
 .side-logo {
     margin: 2rem 6rem 0;
 }
-.teams-row{
+
+.teams-row {
     padding: 0 1rem 3rem;
 }
+
 .tech-talk {
     background: url("../img/techtalk.webp")
 }
@@ -193,6 +204,10 @@ nav i.material-icons{
     .intro-title {
         font-size: 2rem;
         /* padding-left: 7vh; */
+    }
+
+    i.large {
+        font-size: 5rem;
     }
 
     .brand-logo {
@@ -213,34 +228,52 @@ nav i.material-icons{
     .nav-scrolled {
         height: 5.2rem;
     }
-}
 
-.teams {
-    background: #191B1C;
-    height: 100vh;
-    color: white;
-    font-family: Raleway;
-    font-style: normal;
-}
+    .col {
+        padding-bottom: 2rem !important;
+    }
 
-.container > h1 {
-    /* text-align: center; */
-    color: white;
-}
+    .col>h3 {
+        font-size: 2rem;
+    }
 
-.intro-text {
-    text-align: center;
-}
-/* 
+    .col>p {
+        font-size: 1rem;
+    }
+
+    .teams {
+        background: #191B1C;
+        height: 100vh;
+        color: white;
+        font-family: Raleway;
+        font-style: normal;
+    }
+
+    .teams-row {
+        padding-bottom: 1rem;
+    }
+
+    .container>h1 {
+        /* text-align: center; */
+        color: white;
+    }
+
+    .intro-text {
+        text-align: center;
+    }
+
+    /* 
 .padding {
     padding: 8vh;
 
 } */
 
-nav .sidenav-trigger{
-    top: -10px;
-    margin: 0;
-}
-.nav-scrolled{
-    height: 5.2rem;
+    nav .sidenav-trigger {
+        top: -10px;
+        margin: 0;
+    }
+
+    .nav-scrolled {
+        height: 5.2rem;
+    }
 }
