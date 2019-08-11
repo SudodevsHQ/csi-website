@@ -220,13 +220,13 @@ h3 {
         font-size: 2.5rem;
     }
 
-.teams {
-    background: #191B1C;
-    /* height: 100vh; */
-    color: white;
-    font-family: Raleway;
-    font-style: normal;
-}
+    .teams {
+        background: #191B1C;
+        /* height: 100vh; */
+        color: white;
+        font-family: Raleway;
+        font-style: normal;
+    }
 
     .nav-scrolled {
         height: 5.2rem;
@@ -271,15 +271,89 @@ h3 {
 
 } */
 
-nav .sidenav-trigger{
-    top: -10px;
-    margin: 0;
+    nav .sidenav-trigger {
+        top: -10px;
+        margin: 0;
+    }
+
+    .nav-scrolled {
+        height: 5.2rem;
+    }
+
+    .council {
+        background: #191B1C;
+        height: 100vh;
+        color: white;
+        font-family: Raleway;
+        font-style: normal;
+    }
+
+    .face-pic {
+        border-radius: 50%;
+    }
 }
-.nav-scrolled{
+
+.teams {
+    background: #191B1C;
+    /* height: 100vh; */
+    color: white;
+    font-family: Raleway;
+    font-style: normal;
+}
+
+.nav-scrolled {
     height: 5.2rem;
 }
 
-.council  {
+.col {
+    padding-bottom: 2rem !important;
+}
+
+.col>h3 {
+    font-size: 2rem;
+}
+
+.col>p {
+    font-size: 1rem;
+}
+
+.teams {
+    background: #191B1C;
+    /* height: 100vh; */
+    color: white;
+    font-family: Raleway;
+    font-style: normal;
+}
+
+.teams-row {
+    padding-bottom: 1rem;
+}
+
+.container>h1 {
+    /* text-align: center; */
+    color: white;
+}
+
+.intro-text {
+    text-align: center;
+}
+
+/* 
+.padding {
+    padding-top: 8vh;
+
+} */
+
+nav .sidenav-trigger {
+    top: -10px;
+    margin: 0;
+}
+
+.nav-scrolled {
+    height: 5.2rem;
+}
+
+.council {
     background: #191B1C;
     height: 100vh;
     color: white;
@@ -287,6 +361,6 @@ nav .sidenav-trigger{
     font-style: normal;
 }
 
-.face-pic{
+.face-pic {
     border-radius: 50%;
 }
