@@ -134,6 +134,12 @@ nav {
     line-height: 2rem;
     letter-spacing: 0.01rem;
 }
+.container > hr{
+    margin-bottom: 4rem;   
+}
+.material-icons{
+    color: rgba(255, 255, 255, 0.74);
+}
 
 .nav-footer {
     position: fixed;
@@ -146,6 +152,11 @@ nav {
 nav i.material-icons{
     font-size: 32px;
     color: rgba(255, 255, 255, 0.8);
+}
+.col > p{
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5rem;
+    letter-spacing: 0.01rem;
 }
 
 .sidenav {
@@ -163,7 +174,9 @@ nav i.material-icons{
 .side-logo {
     margin: 2rem 6rem 0;
 }
-
+.teams-row{
+    padding: 0 1rem 3rem;
+}
 .tech-talk {
     background: url("../img/techtalk.webp")
 }
@@ -179,7 +192,7 @@ nav i.material-icons{
 @media only screen and (max-width: 600px) {
     .intro-title {
         font-size: 2rem;
-        padding-left: 7vh;
+        /* padding-left: 7vh; */
     }
 
     .brand-logo {
@@ -200,4 +213,34 @@ nav i.material-icons{
     .nav-scrolled {
         height: 5.2rem;
     }
+}
+
+.teams {
+    background: #191B1C;
+    height: 100vh;
+    color: white;
+    font-family: Raleway;
+    font-style: normal;
+}
+
+.container > h1 {
+    /* text-align: center; */
+    color: white;
+}
+
+.intro-text {
+    text-align: center;
+}
+/* 
+.padding {
+    padding: 8vh;
+
+} */
+
+nav .sidenav-trigger{
+    top: -10px;
+    margin: 0;
+}
+.nav-scrolled{
+    height: 5.2rem;
 }
