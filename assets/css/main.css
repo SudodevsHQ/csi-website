@@ -67,6 +67,7 @@ nav ul a{
 }
 .rait{
     color: #03a9f4;
+    font-weight: 700;
 }
 
 nav {
@@ -75,7 +76,7 @@ nav {
 }
 
 .nav-scrolled {
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.9);
     height: 6rem;
 }
 
@@ -88,7 +89,9 @@ nav {
     display: inline-block;
     margin: 0 auto;
     margin-top: 1rem;
-    font-size: 4rem
+    font-size: 3.5rem;
+    font-family: Raleway;
+    font-weight: 500;
 }
 
 .intro-titles {
@@ -118,10 +121,15 @@ nav {
 .card-title {
     font-family: Raleway;
     font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
+    font-weight: 600 !important ;
+    font-size: 1.8rem !important;
     line-height: 28px;
     text-transform: uppercase;
+    line-height: 4rem !important;
+}
+.card .card-content p{
+    line-height: 2rem;
+    letter-spacing: 0.01rem;    
 }
 
 .tech-talk {
@@ -140,5 +148,11 @@ nav {
     .intro-title {
         font-size: 2rem;
         margin-left: 10vh
+    }
+    .brand-logo{
+        font-size: 2.2rem !important;
+    }
+    .phrase{
+        font-size: 2.5rem;
     }
 }
