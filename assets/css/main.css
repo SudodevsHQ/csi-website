@@ -28,7 +28,8 @@ body {
     width: 9rem;
     margin-top: -1rem;
 }
-nav ul a{
+
+nav ul a {
     font-weight: 600;
 }
 
@@ -58,14 +59,15 @@ nav ul a{
     font-weight: 600;
     font-size: 4rem;
     max-width: 1220px;
-    width: 95%; 
+    width: 95%;
     line-height: 4rem;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FAFAFA;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.rait{
+
+.rait {
     color: #03a9f4;
     font-weight: 700;
 }
@@ -121,15 +123,45 @@ nav {
 .card-title {
     font-family: Raleway;
     font-style: normal;
-    font-weight: 600 !important ;
+    font-weight: 600 !important;
     font-size: 1.8rem !important;
     line-height: 28px;
     text-transform: uppercase;
     line-height: 4rem !important;
 }
-.card .card-content p{
+
+.card .card-content p {
     line-height: 2rem;
-    letter-spacing: 0.01rem;    
+    letter-spacing: 0.01rem;
+}
+
+.nav-footer {
+    position: fixed;
+    top: 90vh;
+    font-family: Raleway;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.25);
+    padding: 2rem;
+}
+nav i.material-icons{
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.sidenav {
+    background: #191B1C;
+
+}
+
+.sidenav li>a {
+    color: #FAFAFA;
+    font-size: 1.2rem;
+    font-family: Raleway;
+    padding: 10px 2.5rem 20px;
+}
+
+.side-logo {
+    margin: 2rem 6rem 0;
 }
 
 .tech-talk {
@@ -149,19 +181,23 @@ nav {
         font-size: 2rem;
         padding-left: 7vh;
     }
-    .brand-logo{
+
+    .brand-logo {
         font-size: 2.2rem !important;
         top: -20px;
         margin-left: 5px;
     }
-    .phrase{
+
+    .phrase {
         font-size: 2.5rem;
     }
-    nav .sidenav-trigger{
+
+    nav .sidenav-trigger {
         top: -10px;
         margin: 0;
     }
-    .nav-scrolled{
+
+    .nav-scrolled {
         height: 5.2rem;
     }
 }

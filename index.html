@@ -8,7 +8,7 @@
     <title>CSI-RAIT</title>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
@@ -35,11 +35,15 @@
         </nav>
 
         <ul id="slide-out" class="sidenav">
+            <li><img class="nav-logo side-logo responsive-img" src="./assets/img/csilogo.png" alt="csi-logo"></li>
+            <li><hr></li>
             <li><a href="">WORKSHOPS</a></li>
             <li><a href="">TEAMS</a></li>
             <li><a href="">CONTACT US</a></li>
             <li><a href="">COUNCIL</a></li>
             <li><a href="">ABOUT US</a></li>
+            <li class="nav-footer flow-text center-align">CSI RAIT 2019</li>
+
         </ul>
 
         <h1 class="phrase flow-text center-align">LARGEST TECHNICAL COMMITTEE OF <span class="rait">RAIT</span> </h1>
@@ -57,35 +61,41 @@
             <div class="row">
                 <div class="col m4 tech-talk">
                     <div class="card darken-1 center-align valign-wrapper">
-                            <div class="card-content white-text">
-                                <span class="card-title">TECH TALKS</span>
-                                <p>Qualified & prodigious speakers from various fields share their worthwhile experience and ideas.
-                                     The talks range from inspiring to informative, providing much needed guidance to students for 
-                                     achieving success in this competitive world..</p>
-                            </div>
+                        <div class="card-content white-text">
+                            <span class="card-title">TECH TALKS</span>
+                            <p>Qualified & prodigious speakers from various fields share their worthwhile experience and
+                                ideas.
+                                The talks range from inspiring to informative, providing much needed guidance to
+                                students for
+                                achieving success in this competitive world..</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col m4 ts">
-                        <div class="card darken-1 center-align valign-wrapper">
-                                <div class="card-content white-text">
-                                    <span class="card-title">TECHNICAL SYMPOSIUMS</span>
-                                    <p>The two technical festivals, Techmate in the odd semester and Techknow in the even semester, 
-                                        comprise of a myriad of events technical as well as non-technical. With a humongous 3000+ 
-                                        attendees, they are no doubt the biggest fests organized amongst the various student committees 
-                                        of RAIT</p>
-                                </div>
+                    <div class="card darken-1 center-align valign-wrapper">
+                        <div class="card-content white-text">
+                            <span class="card-title">TECHNICAL SYMPOSIUMS</span>
+                            <p>The two technical festivals, Techmate in the odd semester and Techknow in the even
+                                semester,
+                                comprise of a myriad of events technical as well as non-technical. With a humongous
+                                3000+
+                                attendees, they are no doubt the biggest fests organized amongst the various student
+                                committees
+                                of RAIT</p>
                         </div>
                     </div>
-                    <div class="col m4 workshops">
-                            <div class="card darken-1 center-align valign-wrapper">
-                                    <div class="card-content white-text">
-                                        <span class="card-title">WORKSHOPS</span>
-                                        <p>Technical workshops on a variety of topics are conducted by CSI-RAIT regularly. A hands on approach is provided by the experts. After completion of 
-                                            the workshop every participant is awarded a certificate of excellence based upon his/her 
-                                            performance.</p>
-                                    </div>
-                            </div>
+                </div>
+                <div class="col m4 workshops">
+                    <div class="card darken-1 center-align valign-wrapper">
+                        <div class="card-content white-text">
+                            <span class="card-title">WORKSHOPS</span>
+                            <p>Technical workshops on a variety of topics are conducted by CSI-RAIT regularly. A hands
+                                on approach is provided by the experts. After completion of
+                                the workshop every participant is awarded a certificate of excellence based upon his/her
+                                performance.</p>
                         </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -97,21 +107,24 @@
 
 
 
+
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>    
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
     <script type="text/javascript">
 
-        $(document).ready(function(){
+        $(document).ready(function () {
             $('.sidenav').sidenav();
         });
         $(document).scroll(function () {
             var $nav = $(".navbar");
             $nav.toggleClass('nav-scrolled', $(this).scrollTop() > $nav.height());
-         });
+        });
     </script>
 </body>
 
