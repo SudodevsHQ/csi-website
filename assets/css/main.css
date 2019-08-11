@@ -28,7 +28,8 @@ body {
     width: 9rem;
     margin-top: -1rem;
 }
-nav ul a{
+
+nav ul a {
     font-weight: 600;
 }
 
@@ -58,14 +59,15 @@ nav ul a{
     font-weight: 600;
     font-size: 4rem;
     max-width: 1220px;
-    width: 95%; 
+    width: 95%;
     line-height: 4rem;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FAFAFA;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.rait{
+
+.rait {
     color: #03a9f4;
     font-weight: 700;
 }
@@ -87,6 +89,7 @@ nav {
 
 .intro-title {
     display: inline-block;
+    color: rgba(255, 255, 255, 0.8);
     margin: 0 auto;
     margin-top: 1rem;
     font-size: 3.5rem;
@@ -121,15 +124,68 @@ nav {
 .card-title {
     font-family: Raleway;
     font-style: normal;
-    font-weight: 600 !important ;
+    font-weight: 600 !important;
     font-size: 1.8rem !important;
     line-height: 28px;
     text-transform: uppercase;
     line-height: 4rem !important;
 }
-.card .card-content p{
+
+.card .card-content p {
     line-height: 2rem;
-    letter-spacing: 0.01rem;    
+    letter-spacing: 0.01rem;
+}
+
+.container>hr {
+    margin-bottom: 4rem;
+}
+
+.material-icons {
+    color: rgba(255, 255, 255, 0.74);
+}
+
+.nav-footer {
+    position: fixed;
+    top: 90vh;
+    font-family: Raleway;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.25);
+    padding: 2rem;
+}
+
+nav i.material-icons {
+    font-size: 32px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.col>p {
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.5rem;
+    letter-spacing: 0.01rem;
+}
+
+h3 {
+    color: white;
+}
+
+.sidenav {
+    background: #191B1C;
+
+}
+
+.sidenav li>a {
+    color: #FAFAFA;
+    font-size: 1.2rem;
+    font-family: Raleway;
+    padding: 10px 2.5rem 20px;
+}
+
+.side-logo {
+    margin: 2rem 6rem 0;
+}
+
+.teams-row {
+    padding: 0 1rem 3rem;
 }
 
 .tech-talk {
@@ -147,18 +203,24 @@ nav {
 @media only screen and (max-width: 600px) {
     .intro-title {
         font-size: 2rem;
-        padding-left: 7vh;
+        /* padding-left: 7vh; */
     }
-    .brand-logo{
+
+    i.large {
+        font-size: 5rem;
+    }
+
+    .brand-logo {
         font-size: 2.2rem !important;
         top: -20px;
         margin-left: 5px;
     }
-    .phrase{
+
+    .phrase {
         font-size: 2.5rem;
     }
-}
 
+<<<<<<< HEAD
 .teams {
     background: #191B1C;
     /* height: 100vh; */
@@ -166,21 +228,57 @@ nav {
     font-family: Raleway;
     font-style: normal;
 }
+=======
+    nav .sidenav-trigger {
+        top: -10px;
+        margin: 0;
+    }
+>>>>>>> ba4d13883724fd55d1aecbcd57165069feae68cc
 
-.container > h1 {
-    /* text-align: center; */
-    color: white;
-}
+    .nav-scrolled {
+        height: 5.2rem;
+    }
 
-.intro-text {
-    text-align: center;
-}
+    .col {
+        padding-bottom: 2rem !important;
+    }
 
+    .col>h3 {
+        font-size: 2rem;
+    }
+
+    .col>p {
+        font-size: 1rem;
+    }
+
+    .teams {
+        background: #191B1C;
+        height: 100vh;
+        color: white;
+        font-family: Raleway;
+        font-style: normal;
+    }
+
+    .teams-row {
+        padding-bottom: 1rem;
+    }
+
+    .container>h1 {
+        /* text-align: center; */
+        color: white;
+    }
+
+    .intro-text {
+        text-align: center;
+    }
+
+    /* 
 .padding {
     padding-top: 8vh;
 
-}
+} */
 
+<<<<<<< HEAD
 nav .sidenav-trigger{
     top: -10px;
     margin: 0;
@@ -199,4 +297,14 @@ nav .sidenav-trigger{
 
 .face-pic{
     border-radius: 50%;
+=======
+    nav .sidenav-trigger {
+        top: -10px;
+        margin: 0;
+    }
+
+    .nav-scrolled {
+        height: 5.2rem;
+    }
+>>>>>>> ba4d13883724fd55d1aecbcd57165069feae68cc
 }
