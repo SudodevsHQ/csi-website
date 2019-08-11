@@ -367,7 +367,7 @@ nav .sidenav-trigger {
 
 .about {
     background: #191B1C;
-    height: 100vh;
+    /* height: 100vh; */
     color: white;
     font-family: Raleway;
     font-style: normal;
@@ -411,11 +411,12 @@ nav .sidenav-trigger {
 
   .footer {
     background: black;
-    height: 50vh;
+    /* height: 50vh; */
     color: white;
     font-family: Raleway;
     font-style: normal;
     padding-top: 2vh;
+    padding-bottom: 5vh; 
   }
 
   .footer-text {
@@ -423,5 +424,5 @@ nav .sidenav-trigger {
   }
 
   .footer-text > h3 {
-      text-decoration: underline;
+      text-decoration: underline
   }
