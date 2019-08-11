@@ -178,11 +178,13 @@ nav {
 
 .padding {
     padding: 8vh;
-    nav .sidenav-trigger{
-        top: -10px;
-        margin: 0;
-    }
-    .nav-scrolled{
-        height: 5.2rem;
-    }
+
+}
+
+nav .sidenav-trigger{
+    top: -10px;
+    margin: 0;
+}
+.nav-scrolled{
+    height: 5.2rem;
 }
