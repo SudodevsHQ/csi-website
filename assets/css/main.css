@@ -147,10 +147,12 @@ nav {
 @media only screen and (max-width: 600px) {
     .intro-title {
         font-size: 2rem;
-        margin-left: 10vh
+        padding-left: 7vh;
     }
     .brand-logo{
         font-size: 2.2rem !important;
+        top: -20px;
+        margin-left: 5px;
     }
     .phrase{
         font-size: 2.5rem;
@@ -176,4 +178,11 @@ nav {
 
 .padding {
     padding: 8vh;
+    nav .sidenav-trigger{
+        top: -10px;
+        margin: 0;
+    }
+    .nav-scrolled{
+        height: 5.2rem;
+    }
 }
