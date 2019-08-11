@@ -282,7 +282,7 @@ h3 {
 
     .council {
         background: #191B1C;
-        height: 100vh;
+        /* height: 100vh; */
         color: white;
         font-family: Raleway;
         font-style: normal;
