@@ -364,3 +364,64 @@ nav .sidenav-trigger {
 .face-pic {
     border-radius: 50%;
 }
+
+.about {
+    background: #191B1C;
+    height: 100vh;
+    color: white;
+    font-family: Raleway;
+    font-style: normal;
+}
+
+.about-text {
+    font-size: 1.5rem;
+}
+
+.ele {
+    text-align: center;
+    padding-bottom: 50px;
+    border-right: 1px dashed white;
+  }
+  
+  .ele:last-child {
+    border-right: 0px solid white;
+  }
+  
+  .counter {
+    animation-duration: 1s;
+    animation-delay: 0s;
+  }
+  
+  i {
+    font-size: 20px !Important;
+  }
+  
+  @media (max-width: 991px) {
+    .ele {
+      border-right: 0px dashed white;
+      border-bottom: 1px dashed white;
+      width: 50%;
+      margin: auto auto;
+    }
+    
+    .ele:last-child {
+      border-bottom: 0px dashed white;
+    }
+  }
+
+  .footer {
+    background: black;
+    height: 50vh;
+    color: white;
+    font-family: Raleway;
+    font-style: normal;
+    padding-top: 2vh;
+  }
+
+  .footer-text {
+      text-align: left;
+  }
+
+  .footer-text > h3 {
+      text-decoration: underline;
+  }
